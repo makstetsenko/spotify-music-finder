@@ -21,8 +21,9 @@ If downloading playlits then download directory is `./downlods/PLAYLIST-NAME`.
 1) You need to create `SPOTIPY_CLIENT_ID` and `SPOTIPY_CLIENT_SECRET` under your Spotify account
 2) Add secrets to `.env` file (Check `.env.example` for reference).
 3) Create venv: `python -m venv venv`
-4) Install requirements:  `python -m pip install -r requirements.txt`
-5) Run: `python main.py "LINK TO TRACK OR PLAYLIST"`. 
+4) Use venv: `source venv/bin/activate`
+5) Install requirements:  `python -m pip install -r requirements.txt`
+6) Run: `python main.py "LINK TO TRACK OR PLAYLIST"`. 
 
 For example:
 
